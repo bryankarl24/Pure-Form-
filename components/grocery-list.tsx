@@ -179,7 +179,7 @@ export function GroceryList() {
                     id={`delete-${item.id}`}
                     checked={selectedItems.has(item.id)}
                     onCheckedChange={() => toggleSelectItem(item.id)}
-                  />
+                  /> 
                   <div className="flex-1 flex items-center gap-4">
                     <span className="w-8 text-center text-gray-500">×{item.quantity}</span>
                     <label htmlFor={`delete-${item.id}`} className="flex-1 cursor-pointer">
